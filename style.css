@@ -1,0 +1,250 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgb(27, 21, 107, 0.9),rgb(27, 21, 107, 0.9)), 
+        url('./img/hero-bg-2.jpg') no-repeat center center/cover;
+    color: white;
+    position: relative;
+    /* padding-bottom: 5px; */
+    border-bottom: 10px groove #c9c7dc;
+    
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-toggler {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Nav Menu */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #babad2;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline #1acc8e;
+    color: white;
+    
+}
+
+/* Dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background: #1acc8e;
+    color: white;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.banner-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: #babad2;
+    text-align: justify;
+}
+
+.banner-title-underline {
+    text-decoration: underline #1acc8e;
+    color: white;
+}
+
+.banner-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: #babad2;
+}
+
+/* Buttons */
+.btn-green {
+    border-radius: 30px;
+    background: #1acc8e;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-bg-none {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-green:hover,
+.btn-bg-none:hover {
+    opacity: 0.9;
+}
+
+#play-icon {
+    color: #1acc8e;
+    font-size: 20px;
+    
+}
+
+/* Banner Image */
+.banner-img {
+    /* max-width: 50%;
+    height: auto; */
+    width: 300px;
+    margin-right: 160px;
+    margin-bottom: 30px;
+}
+
+
+/* ============================= About Us Section ===================================*/
+
+.about-us{
+    margin: 50px;
+    background-color: #ffffff;
+}
+/* about head */
+.about-head{
+    color: #67cd8d;
+    background-color: #f3fcf9;
+    padding: 5px;
+    margin-right: 83%;
+    margin-left: 10px;
+    margin-bottom: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background: rgba(26, 21, 105, 0.9);
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .nav-toggler {
+        display: block;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+    .banner-img{
+        margin-top: 20px;
+        
+    }
+}

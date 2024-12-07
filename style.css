@@ -182,7 +182,10 @@ body {
 /* ============================= About Us Section ===================================*/
 
 .about-us{
-    margin: 50px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
     background-color: #ffffff;
 }
 /* about head */
@@ -195,9 +198,40 @@ body {
     margin-bottom: 0;
     
 }
+/* card icon */
+.bi-buildings, .bi-clipboard2-pulse, .bi-command, .bi-graph-up-arrow{
+    padding: 10px;
+    background-color: #f3fcf9;
+    color: #1acc8e;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 25px;
+    
+}
+/* card-title color */
+#cd-title{
+    color: #040677;
+    font-weight: bolder;
+}
+/* card 2 & 4 */
+#cd-2, #cd-4{
+    margin-top: -40px;
+}
 
-
-
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-head {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .card-body {
+        text-align: center;
+        
+    }
+}
 
 
 

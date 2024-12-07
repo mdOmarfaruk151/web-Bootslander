@@ -198,9 +198,14 @@ body {
     margin-bottom: 0;
     
 }
-/* card icon */
-.bi-buildings, .bi-clipboard2-pulse, .bi-command, .bi-graph-up-arrow{
-    padding: 10px;
+.card-text{
+    text-align: justify;
+}
+/* section 1 card icon */
+#s1-cd-icon{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #f3fcf9;
     color: #1acc8e;
     border-radius: 100px;
@@ -229,18 +234,100 @@ body {
     }
     .card-body {
         text-align: center;
-        
+
     }
 }
 
+/* ======================== Section 2 & 3 Mini Cards ============================*/
+.icon-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease;
+    background-color: #ffffff;
+    color: #686969;
+    margin-bottom: 0px;
+}
 
+.icon-box:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
 
+h2 {
+    margin-bottom: 40px;
+}
 
+p {
+    font-size: 14px;
+}
+/* section 3 */
+.s3-min-cd{
+    background-color: #f5f5ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+/* section 3 box card icons */
+#s3-icon{
+    background-color: white;
+    color: #69d197;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight:bolder;
+    box-shadow: 0px -2px 20px 0px whitesmoke;
+    border-radius: 200px ;
+    
+}
 
-
-
-
+/* section 3 row icons */
+#cd-ro-icon-12{
+    font-size: 20px;
+    
+}
+/* icons */
+.bi-eye{
+    color: #ffbe54;
+} 
+.bi-infinity{
+   color: #5878fe;
+} 
+.bi-mortarboard{
+    color: #e80367;
+} 
+.bi-nut{
+    color: #e36aff;
+} 
+.bi-shuffle{
+    color: #a6defe;
+} 
+.bi-star{
+    color: #ffab6f;
+} 
+.bi-x-diamond{
+    color: #83e0d2;
+} 
+.bi-camera-video{
+    color: #6433fe;
+} 
+.bi-command{
+    color: #b29258;
+} 
+.bi-dribbble{
+    color: #b20868;
+} 
+.bi-activity{
+    color: #fe743d;
+} 
+.bi-brightness-high{
+    color: #95e1a7;
+}
+/* icon text */
+#s2-p-title{
+    color: #261b7a;
+}
 
 
 

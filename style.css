@@ -329,7 +329,36 @@ p {
     color: #261b7a;
 }
 
+/* ============================ Section 4 ===================================*/
+/* section title */
+.section-title {
+    color: #040577;
+    font-weight: 700;
+}
 
+/* hr line */
+.hr-top{
+    background-color: #20cd91;
+    height: 2px;
+    border: none;
+    margin-left: 55px;
+    margin-right: 85%;
+    margin-top: -9px;
+}
+/*  */
+.check-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.check-list li:before {
+    content: "✔";
+    color: #52cc8e;
+    padding-right: 10px;
+}
+.img-fluid {
+    border-radius: 10px;
+    width: 400px;
+}
 
 
 

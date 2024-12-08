@@ -421,8 +421,61 @@ p {
     padding-right: 1px;
 }
 
+/* ===================================== Section 7 ============================================= */
+.team-member {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.team-member img {
+    /* border-radius: 100%; */
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    object-fit: cover;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none; 
+}
+.bi-twitter, 
+.bi-facebook, 
+.bi-instagram,
+.bi-linkedin{
+    color: #c6c6c6;
+}
 
+.bi-facebook:hover{
+    color: #0866ff;
+}
+.bi-instagram:hover{
+    color: #f70092;
+}
+.bi-linkedin:hover{
+    color: #0077b5;
+}
+.bi-twitter:hover{
+    color: #24a4f2;
+}
 
+#team-card-body{
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top: -50px;
+}
+/* transition col */
+#transition-col {
+    
+    transition: transform 0.3s;
+}
+#transition-col:hover {
+    transform: scale(1.05);
+}
 
 
 

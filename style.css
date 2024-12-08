@@ -341,7 +341,7 @@ p {
     background-color: #20cd91;
     height: 2px;
     border: none;
-    margin-left: 55px;
+    margin-left: 56px;
     margin-right: 85%;
     margin-top: -9px;
 }
@@ -359,6 +359,69 @@ p {
     border-radius: 10px;
     width: 400px;
 }
+
+/* ============================ Section 5 ===================================*/
+.gallery img {
+    
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* ============================ Section 6 ===================================*/
+.review-section {
+    background: linear-gradient(rgb(27, 21, 107, 0.7),rgb(27, 21, 107, 0.7)), 
+    url('./img/testimonials-bg.jpg') no-repeat center center/cover;
+    position: relative;
+    color: white;
+    padding: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.review-section img {
+    border: 4px solid #2f306c;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.owner-profile-name{
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.store-owner{
+    color: #5f5b85;
+    font-weight: 600;
+    font-size: smaller;
+    margin-top: -15px;
+}
+#review-star{
+    justify-content: center;
+    font-size: small;
+    margin-top: -15px;
+    color: #fec107;
+}
+.customer-reviews{
+    color: #f3f3f6;
+    text-align: center;
+    font-size: smaller;
+    margin-top: -25px;
+}
+.customer-reviews::before{
+    content: "❝";
+    font-size: 40px;
+    color: #9692ae;
+    padding-right: 1px;
+}
+.customer-reviews::after{
+    content: "❞";
+    font-size: 40px;
+    color: #9692ae;
+    padding-right: 1px;
+}
+
+
 
 
 

@@ -477,7 +477,57 @@ p {
     transform: scale(1.05);
 }
 
-
+/* ================================== Section 8 =================================*/
+.pricing-card {
+    background-color: #f7fdfb;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 10px;
+    padding: 30px;
+    /* text-align: center; */
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+.pricing-card-title{
+    color: #04068c;
+}
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+.pricing-card > p, li, .pricing-month {
+    color: #797b80;
+}
+.pricing-month{
+    font-size: 15px;
+}
+#badge-popular{
+    padding: 5px;
+    margin-left: 100px;
+}
+/* popular border 2px green */
+/* .popular {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+   
+} */
+.pricing-color{
+    color: #39cb8d;
+    
+}
+.list-unstyled > li{
+    line-height: 2;
+}
+.check-icon::before {
+    content: "✓";
+    color: #4CAF50;
+    font-size: 15px;
+    font-weight: 800;
+}
+.cross-icon::before {
+    content: "✗";
+    color: #e74c3c;
+    font-size: 15px;
+    font-weight: 800;
+}
 
 
 /* Responsive Design */

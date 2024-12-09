@@ -530,6 +530,44 @@ p {
 }
 
 
+/* =================================== Section 9 ======================================*/
+#faq-section{
+    align-items: center;
+    background-color: #f5f5ff;
+}
+#faq-img{
+    width: 600px; 
+    height:400px;
+    margin-right: 10px;
+}
+
+.text-left {
+    color: #031181;
+    
+}
+.bi-question-circle{
+    color: #64d0a8;
+    margin-right: 5px;
+    
+}
+.accordion-header {
+  color: #031181;
+  
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {

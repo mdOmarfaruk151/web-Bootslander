@@ -534,6 +534,7 @@ p {
 #faq-section{
     align-items: center;
     background-color: #f5f5ff;
+    
 }
 #faq-img{
     width: 600px; 
@@ -558,9 +559,54 @@ p {
     margin-bottom: 10px;
 }
 
+/* =================================== Section 10 ======================================*/
+.container > h4 {
+    margin-top: -10px;
+    color: #031181;
+    font-weight: 600;
+}
+.contact-section {
+    background-color: #f7f9fc;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info i {
+    color: #4CAF50;
+    margin-right: 10px;
+    background-color: #ecfbf6;
+    border-radius: 200px;
+    padding: 5px;
+    
+}
+.contact-info p {
+    margin-left: 40px;
+    color: #9f9aa0;
+    font-weight: 500;
+}
+.contact-info strong{
+    color: #031181;
 
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.send-button {
+    display: block; /* Makes the button behave like a block element */
+    margin: 0 auto; /* Centers the button horizontally */
+    padding: 5px 15px;
+    background-color: #1acc8e;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
 
-
+.send-button:hover {
+    background-color: #45a049;
+}
 
 
 

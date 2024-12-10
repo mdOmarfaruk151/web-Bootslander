@@ -28,13 +28,13 @@
             <li><a href="#4">Team</a></li>
             <li><a href="#5">Pricing</a></li>
             <li class="dropdown">
-                <a href="#6" class="dropdown-toggle">Dropdown ▼</a>
+                <a href="#6" class="dropdown-toggle">Dropdown</a>
                 <ul class="dropdown-menu">
                     <li><a href="#7">Option 1</a></li>
                     <li><a href="#8">Option 2</a></li>
                 </ul>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#9">Contact</a></li>
         </ul>
     </nav>
 
@@ -56,9 +56,9 @@
 
 <main>
     <!-- section 1 => About Us-->
-    <section class="about-us">
+    <section class="about-us" >
 
-         <div class="d-flex gap-3">
+         <div class="d-flex gap-3" id="1">
 
         <!-- about us card -->
             <div class="card" style="border: none;">
@@ -251,7 +251,7 @@
 
     <!-- section 4 => Details-->
     <section>
-      <div class="container my-5">
+      <div class="container my-5" id="2">
         <h6 class="section-title mb-0">Details<hr class="hr-top"></h6>
         <h3 class="section-title ">Check Our Details</h3>
 
@@ -313,7 +313,7 @@
 
     <!-- Section 5 => Gallery-->
     <section>
-      <div class="container my-5">
+      <div class="container my-5" id="3">
         <h6 class="text-left mb-0 " style="color: #c3bec2;">Gallery <hr class="hr-top"></h6>
         <h4 class="text-left mb-4 " style="color: #040677;">Check Our Gallery</h4>
 
@@ -370,7 +370,7 @@
 
     <!-- Section 7 => Team -->
      <section>
-      <div class="container my-5">
+      <div class="container my-5" id="4">
         <h5 class="text-left " style="color: #b4bebe;">Team <hr class="hr-top "></h5>
         <h3 class="text-left mb-5 " style="color: #120677;">Check Our Team</h3>
 
@@ -440,7 +440,7 @@
 
      <!-- Section 8 => Pricing -->
       <section>
-        <div class="container my-5 ">
+        <div class="container my-5 " id="5">
           <h6 class="text-left " style="color: #a3a6a8; margin-bottom: -5px">Pricing <hr class="hr-top"></h6>
           <h4 class="text-left mb-5" style="color: #0b0f7b;">Check Our Pricing</h4>
   
@@ -477,7 +477,7 @@
                           <li class="check-icon"> Pharetra massa massa ultricies</li>
                           <li class="check-icon"> Massa ultricies mi quis hendrerit</li>
                           <li class="check-icon"> Nulla at volutpat diam utera</li>
-                          <li class="cross-icon"> <del>Pharetra massa massa ultricies</del></li>
+                          <li class="cross-icon"> <del>Iure nihil dolores recusandae odit voluptatibus</del></li>
                       </ul>
                   </div>
               </div>
@@ -567,7 +567,7 @@
       </section>
       <!-- Section 10 => Contact -->
        <section>
-        <div class="container my-5">
+        <div class="container my-5" id="9">
           <h6 class="" style="color: #b7b1c1;">Contact <hr class="hr-top"></h6>
           <h4 class=" mb-4 ">Check Our Contact</h4>
   
@@ -576,17 +576,22 @@
                   <div class="contact-info">
                       <i class="bi bi-geo-alt"></i>
                       <strong>Address:</strong>
-                      <p>A108 Adam Street, New York, NY 535022</p>
+                      <br>
+                      <a href="https://www.google.com/maps?q=A108+Adam+Street,+New+York,+NY+535022" target="_blank">
+                        A108 Adam Street, New York, NY 535022
+                    </a>                    
                   </div>
                   <div class="contact-info">
                       <i class="bi bi-telephone"></i>
                       <strong>Call Us:</strong>
-                      <p>+1 5589 55488 55</p>
+                      <br>
+                      <a href="tel:+155895548855" >+1 5589 55488 55</a>
                   </div>
                   <div class="contact-info">
                       <i class="bi bi-envelope"></i>
                       <strong>Email Us:</strong>
-                      <p>info@example.com</p>
+                      <br>
+                      <a href="mailto:info@example.com">info@example.com</a>
                   </div>
               </div>
               <div class="col-md-6">
@@ -611,14 +616,26 @@
       <div class="container">
           <div class="row">
               <div class="col-md-3 mb-4">
-                  <h5 class="mb-4">Bootslander</h5>
-                  <p id="footer-text-color">A108 Adam Street<br>New York, NY 535022</p>
-                  <p class="mb-4">
-                    <strong>Phone:</strong><span id="footer-text-color"> +1 5589 55488 55</span> 
-                    <br>
-                    <strong>Email:</strong><span id="footer-text-color"> info@example.com</span> 
+                  <div class="d-flex" >
+                    <img  src="./img/logo.png" alt="" style="width: 27px; height:27px" class=" ">
+                  <h5 class="mb-4" >ootslander</h5>
+                  </div>
+                  
+                  <p class="mb-0">
+                    <a  id="footer-text-color" href="https://www.google.com/maps?q=A108+Adam+Street,+New+York,+NY+535022" target="_blank">
+                      A108 Adam Street<br>New York, NY 535022
+                    </a>
                   </p>
-                  <div class="social-icons ">
+                  <br>
+                  <p class="mb-4">
+                    <strong>Phone:</strong>
+                    <a id="footer-text-color" href="tel:+155895548855">+1 5589 55488 55</a>
+                    <br>
+                    <strong>Email:</strong>
+                    <a id="footer-text-color" href="mailto:info@example.com">info@example.com</a>
+                </p>
+                
+                  <div class="footer-social-icons ">
                       <a href="#"><i class="bi bi-facebook"></i></a>
                       <a href="#"><i class="bi bi-twitter"></i></a>
                       <a href="#"><i class="bi bi-instagram"></i></a>
@@ -664,9 +681,45 @@
               </small>
           </div>
       </div>
+
+      <!-- Arrow Up button -->
+     <!-- Scroll to Top Button -->
+    <button class="btn btn-success scroll-to-top d-none" id="scrollButton">
+      <i class="bi bi-arrow-up"></i> 
+      Go Up
+  </button>
   </footer>
 
+  <!-- Arrow Up button function  -->
+  <script>
+    const button = document.getElementById('scrollButton');
 
+    // Show button when scrolling down
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            button.classList.remove('d-none');
+        } else {
+            button.classList.add('d-none');
+        }
+    });
+
+    // Scroll to top and hide button
+    button.addEventListener('click', () => {
+        // Add bounce animation
+        button.classList.add('btn-bounce');
+
+        // Smooth scroll to top
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        // Remove the button after scrolling
+        setTimeout(() => {
+            button.classList.add('d-none');
+        }, 500); // Match the bounce animation duration
+    });
+</script>
 
 
 <!-- nav menu -->
